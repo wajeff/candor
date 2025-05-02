@@ -1,0 +1,27 @@
+.nav {
+  height: 8vh;
+  width: 70%;
+  margin: 0 15% 0 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #000b59;
+  position: fixed;
+  top: 0; 
+  background-color: white;
+  z-index: 1000;
+}
+
+.nav__logo{
+  object-fit: contain;
+  height: 100%;
+  width: auto; 
+}
+.nav__button{
+  height: 50%;
+  background-color: #fff;
+  border-style: none;
+  color: #000b59;
+  font-size:16px;
+  font-weight: bold;
+}

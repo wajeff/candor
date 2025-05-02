@@ -1,0 +1,16 @@
+.hero__paragraph-container {
+  display: flex;
+  margin: 0 15%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+.hero__paragraph-section {
+  width: calc(50% - 0.5rem); 
+  flex-shrink: 0; 
+  background-color: #000b57;
+  padding: 1.5rem;
+  color: #ffffff;
+  box-sizing: border-box;
+}
