@@ -4,6 +4,7 @@ const Pitch = () => {
   return (
     <section classnName = {styles.pitch}>
       <h1 className={styles.pitch__title}>Create your Lease in 10 minutes</h1>
+
       <section className = {styles[`pitch__paragraph-container`]}>
         <section className = {styles[`pitch__paragraph-section`]}>
           <h2 className = {styles[`pitch__paragraph-title`]}>Free for small landlords</h2>
