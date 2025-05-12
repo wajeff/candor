@@ -2,24 +2,23 @@ import styles from './Pitch.module.css'
 
 const Pitch = () => {
   return (
-    <section className = {styles[`hero__paragraph-container`]}>
-        <section className = {styles[`hero__paragraph-section`]}>
-          <h2 className = {styles[`hero__paragraph-title`]}>Why Candor?</h2>
-          <p className = {styles.hero__paragraph}>Landlords have control and transparency over their leasing contracts. Access the same tools that agents use at a fraction of the cost.</p>
+    <section classnName = {styles.pitch}>
+      <h1 className={styles.pitch__title}>Create your Lease in 10 minutes</h1>
+      <section className = {styles[`pitch__paragraph-container`]}>
+        <section className = {styles[`pitch__paragraph-section`]}>
+          <h2 className = {styles[`pitch__paragraph-title`]}>Free for small landlords</h2>
+          <p className = {styles.pitch__paragraph}>Looking to manage just one property? Access the core of Candor’s features for free!</p>
         </section>
-        <section className = {styles[`hero__paragraph-section`]}>
-          <h2 className = {styles[`hero__paragraph-title`]}>Why Candor?</h2>
-          <p className = {styles.hero__paragraph}>Landlords have control and transparency over their leasing contracts. Access the same tools that agents use at a fraction of the cost.</p>
+        <section className = {styles[`pitch__paragraph-section`]}>
+          <h2 className = {styles[`pitch__paragraph-title`]}>Fixed monthly cost</h2>
+          <p className = {styles.pitch__paragraph}>Pay our fixed monthly fee for full access to all our features. No hidden fees, no under the table shenanigans. Cancel anytime.</p>
         </section>
-        <section className = {styles[`hero__paragraph-section`]}>
-          <h2 className = {styles[`hero__paragraph-title`]}>Why Candor?</h2>
-          <p className = {styles.hero__paragraph}>Landlords have control and transparency over their leasing contracts. Access the same tools that agents use at a fraction of the cost.</p>
-        </section>
-        <section className = {styles[`hero__paragraph-section`]}>
-          <h2 className = {styles[`hero__paragraph-title`]}>Why Candor?</h2>
-          <p className = {styles.hero__paragraph}>Landlords have control and transparency over their leasing contracts. Access the same tools that agents use at a fraction of the cost.</p>
+        <section className = {styles[`pitch__paragraph-section`]}>
+          <h2 className = {styles[`pitch__paragraph-title`]}>No middlemen</h2>
+          <p className = {styles.pitch__paragraph}>One month of rent plus HST split between two agents is a thing of the past.</p>
         </section>
       </section>
+    </section>
   )
 }
 

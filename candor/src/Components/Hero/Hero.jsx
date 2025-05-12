@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react' 
 import styles from './Hero.module.css'
+import toronto from '../../assets/Hero/toronto.jpg'
 
 const wordsToCycle = ["Lease", "Manage", "Grow"]; 
 
@@ -14,7 +15,7 @@ const Hero = () => {
       setWordIndex(prevIndex => (prevIndex + 1) % wordsToCycle.length);
     }, 1500); // Adjust time as needed
 
-    // Cleanup function: Clear the interval when the component unmounts
+ 
     return () => clearInterval(intervalId);
 
   }, []); // Empty dependency array means this effect runs only once on mount and cleans up on unmount
@@ -24,9 +25,19 @@ const Hero = () => {
 
   return (
     <section className = {styles.hero}>
-      <h1 className = {styles.hero__title}>
-        A Better Way to {currentWord} {/* Use the currentWord variable here */}
-      </h1>
+      <section className={styles[`hero__title-container`]}>
+        <h2 className = {styles.hero__title}>
+          A Better Way to {currentWord} {/* Use the currentWord variable here */} <br/>
+          <span className ={styles[`hero__title-highlight`]}>with Candor</span>    
+        </h2>
+      </section>
+      <img 
+        src={toronto}
+        alt='A sketch of the Toronto Waterfront skyline'
+        className={styles[`hero__title-img`]}>
+        
+
+      </img>
       
     </section>
   )

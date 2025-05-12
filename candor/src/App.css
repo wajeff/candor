@@ -11,3 +11,8 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary-color: #004AAD;
+  --font-size-base: 16px;
+}
