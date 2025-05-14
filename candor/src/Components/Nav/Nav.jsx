@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className = {styles.nav}>
       <img className = {styles.nav__logo} src ={logo}></img>
-      <button className = {styles.nav__button}>Login</button>
+      <button className = {styles.nav__button}> <a href='/Editor'>Login</a></button>
     </nav>
   )
 }
