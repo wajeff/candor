@@ -1,11 +1,12 @@
 import React from 'react'
 import Nav from '../Components/Nav/Nav'
-import Quill from '../Components/RichEditor/Quill';
+import Tiptap from '../Components/TipTap/TipTap'
 
 const ContractEditor = () => {
   return (
     <div>
       <Nav/>
+      <Tiptap/>
     </div>
   );
 }
