@@ -3,7 +3,11 @@ import styles from './Pitch.module.css'
 const Pitch = () => {
   return (
     <section classnName = {styles.pitch}>
-      <h1 className={styles.pitch__title}>Create your Lease in 10 minutes</h1>
+      <h1 className={styles.pitch__title}>Create your lease in 10 minutes</h1>
+
+      <div className={styles[`pitch__button-container`]}>
+        <button className={styles.pitch__button}> Get Started</button>
+      </div>
 
       <section className = {styles[`pitch__paragraph-container`]}>
         <section className = {styles[`pitch__paragraph-section`]}>

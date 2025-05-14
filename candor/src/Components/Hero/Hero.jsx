@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import styles from './Hero.module.css'
 import toronto from '../../assets/Hero/toronto.jpg'
 
-const wordsToCycle = ["Lease", "Manage", "Grow"]; 
+const wordsToCycle = ["to lease", "to manage", "to grow"]; 
 
 const Hero = () => {
 
@@ -27,17 +27,17 @@ const Hero = () => {
     <section className = {styles.hero}>
       <section className={styles[`hero__title-container`]}>
         <h2 className = {styles.hero__title}>
-          A Better Way to {currentWord} {/* Use the currentWord variable here */} <br/>
-          <span className ={styles[`hero__title-highlight`]}>with Candor</span>    
+          A better way <br/>{currentWord} {/* Use the currentWord variable here */} <br/>
+          <span className ={styles[`hero__title-highlight`]}>with CANDOR</span>    
         </h2>
       </section>
-      <img 
-        src={toronto}
-        alt='A sketch of the Toronto Waterfront skyline'
-        className={styles[`hero__title-img`]}>
-        
-
-      </img>
+      <section className = {styles[`hero__title-img-container`]}>
+        <img
+          src={toronto}
+          alt='A sketch of the Toronto Waterfront skyline'
+          className={styles[`hero__title-img`]}>
+        </img>
+      </section>
       
     </section>
   )

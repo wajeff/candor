@@ -1,14 +1,12 @@
 .nav {
-  height: 4vh;
+  height: 6.5vh;
   width: 95%;
   margin: var(--fullpage-margin-lr);
-  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0; 
-  background-color: white;
   z-index: 1000;
 }
 
