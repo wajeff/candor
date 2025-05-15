@@ -13,6 +13,7 @@ const Tiptap = () => {
 
   return (
     <div className={styles.editorContainer}>
+      <h2 className={styles.edtior__title}>Candor Editor</h2>
       {/* Toolbar */}
       <div className={styles.toolbar}>
         <button onClick={() => editor.chain().focus().toggleBold().run()}>

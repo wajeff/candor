@@ -1,5 +1,8 @@
+.edtior__title{
+  text-align: center;
+}
 .editorContainer {
-  margin-top: 8vh;
+  margin: 8vh 10% 10% 10%;
   padding: 1rem;
 }
 

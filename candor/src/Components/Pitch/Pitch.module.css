@@ -1,3 +1,6 @@
+.pitch{
+  height: 80vh;
+}
 .pitch__title{
   margin-top: 8vh;
   text-align: center;
@@ -20,7 +23,7 @@
 .pitch__paragraph-container {
   display: flex;
   justify-content: space-between;
-  margin: 3% 10% 0 10%;
+  margin: 3% 10% 5% 10%;
   height: 50vh;
   flex-wrap: wrap;
   gap: 2rem;
