@@ -1,0 +1,28 @@
+.edtior__title{
+  text-align: center;
+}
+.editorContainer {
+  margin: 8vh 10% 10% 10%;
+  padding: 1rem;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.editor {
+  min-height: 150px;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 4px;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+
+.editor :global(.ProseMirror-focused) {
+  outline: none;
+  border-color: #007bff;
+}

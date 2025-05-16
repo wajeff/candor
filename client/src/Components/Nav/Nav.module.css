@@ -1,0 +1,25 @@
+.nav {
+  height: 6.5vh;
+  width: 95%;
+  margin: var(--fullpage-margin-lr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; 
+  z-index: 1000;
+}
+
+.nav__logo{
+  object-fit: contain;
+  height: 100%;
+  width: auto; 
+}
+.nav__button{
+  height: 50%;
+  background-color: #fff;
+  border-style: none;
+  color: var(--primary-color);
+  font-size:1rem;
+  font-weight: bold;
+}
